@@ -3,11 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>SheCodes Week 1 Homework</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+
+      .normal {
+        font-weight: normal;
+      }
+
+      .dayContainer {
+        text-align: center;
+        padding: 15px;
+        margin-left: 500px;
+        margin-right: 500px;
+      }
+
+      .dayContainer:hover {
+        background-color: lightyellow;
+      }
+
+      .currently {
+        color: orange;
+      }
+    </style>
   </head>
   <body>
     <!-- insert weather emoji here -->
+    <h1>🌡️</h1>
 
     <!-- hello sandy, finally naka commit najud ka (wow) -->
+    <h1 class="currently"><strong>Currently 21% in the Philippines</strong></h1>
+    <h1 class="normal">13° / <strong>23°</strong></h1>
+
+    <div class="dayContainer">
+      <h3 class="dayLabel">☁️ Tomorrow</h3>
+      <h3 class="tempLabel">10° / 22°</h3>
+    </div>
+
+    <div class="dayContainer">
+      <h3 class="dayLabel">⛅ Sunday</h3>
+      <h3 class="tempLabel">15° / 17°</h3>
+    </div>
+
+    <div class="dayContainer">
+      <h3 class="dayLabel">🌞 Monday</h3>
+      <h3 class="tempLabel">25° / 28°</h3>
+    </div>
+
+    <button>Change city</button>
+
+    <h4>Coded by Sandy Lumacad</h4>
   </body>
 </html>
